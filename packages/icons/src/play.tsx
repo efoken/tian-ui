@@ -1,0 +1,13 @@
+import { DOMGenericProperties } from "atomico/types/dom"
+
+export const Play = (props: DOMGenericProperties) => (
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" {...props}>
+    <path
+      d="M18.4445 14.163C19.8518 13.0869 19.8518 10.9133 18.4445 9.83723L10.1835 3.97638C8.70687 2.92878 6.6698 3.44568 6.24135 5.20473C5.24936 9.27753 5.25586 14.735 6.24303 18.7948C6.6708 20.554 8.70687 21.0714 10.1835 20.0239L18.4445 14.163Z"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+)

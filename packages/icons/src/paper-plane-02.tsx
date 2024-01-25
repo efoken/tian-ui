@@ -1,0 +1,13 @@
+import { DOMGenericProperties } from "atomico/types/dom"
+
+export const PaperPlane02 = (props: DOMGenericProperties) => (
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" {...props}>
+    <path
+      d="M5.16669 12L3.0269 5.58063C2.46345 3.89026 4.225 2.36247 5.8187 3.15932L19.9223 10.2111C21.3964 10.9482 21.3964 13.0518 19.9223 13.7888L5.8187 20.8406C4.225 21.6375 2.46344 20.1097 3.0269 18.4193L5.16669 12ZM5.16669 12H11"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+)

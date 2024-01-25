@@ -1,0 +1,13 @@
+import { DOMGenericProperties } from "atomico/types/dom"
+
+export const MicrophoneCrossed = (props: DOMGenericProperties) => (
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" {...props}>
+    <path
+      d="M19.6997 15.3333C18.1628 17.9902 15.2901 19.7778 12 19.7778M12 19.7778V22M12 19.7778C11.2327 19.7778 10.488 19.6805 9.77778 19.4977M4.30029 15.3333C4.82274 16.2365 5.49954 17.0392 6.29461 17.7054M21 3L16.4444 7.55556M3 21L6.29461 17.7054M9.46207 14.5379C8.30966 13.7349 7.55556 12.4 7.55556 10.8889V6.44444C7.55556 3.98985 9.5454 2 12 2C14.4546 2 16.4444 3.98985 16.4444 6.44444V7.55556M9.46207 14.5379L16.4444 7.55556M9.46207 14.5379L6.29461 17.7054M13.8294 14.9406C15.0778 14.376 16.0187 13.2515 16.3318 11.8874"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+)

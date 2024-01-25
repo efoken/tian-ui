@@ -1,0 +1,13 @@
+import { DOMGenericProperties } from "atomico/types/dom"
+
+export const Triangle = (props: DOMGenericProperties) => (
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" {...props}>
+    <path
+      d="M19.8389 21H4.16109C2.55664 21 1.51311 19.3713 2.23064 17.987L9.10432 4.72628C10.2974 2.42457 13.7026 2.42458 14.8957 4.72628L21.7694 17.987C22.4869 19.3713 21.4434 21 19.8389 21Z"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+)

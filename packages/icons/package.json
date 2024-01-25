@@ -1,0 +1,19 @@
+{
+  "name": "@tian-ui/icons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsx scripts/build.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "atomico": "^1.75.1"
+  },
+  "devDependencies": {
+    "outdent": "^0.8.0"
+  }
+}

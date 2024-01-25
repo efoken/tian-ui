@@ -1,0 +1,13 @@
+import { DOMGenericProperties } from "atomico/types/dom"
+
+export const PieChart02 = (props: DOMGenericProperties) => (
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" {...props}>
+    <path
+      d="M2 12C2 6.47715 6.47715 2 12 2M2 12H12M2 12C2 16.0555 4.41415 19.5471 7.88376 21.1162M12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C10.5327 22 9.13912 21.684 7.88376 21.1162M12 2V12M12 12L7.88376 21.1162"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+)

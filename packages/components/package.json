@@ -1,0 +1,22 @@
+{
+  "name": "@tian-ui/components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsup src/index.ts src/*/index.ts --dts",
+    "prepack": "clean-package",
+    "postpack": "clean-package restore"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@atomico/hooks": "^3.50.3",
+    "@tian-ui/core": "workspace:*",
+    "@tian-ui/hooks": "workspace:*",
+    "@tian-ui/icons": "workspace:*",
+    "@tian-ui/utils": "workspace:*",
+    "atomico": "^1.75.1"
+  }
+}

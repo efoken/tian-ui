@@ -1,0 +1,13 @@
+import { DOMGenericProperties } from "atomico/types/dom"
+
+export const Pin = (props: DOMGenericProperties) => (
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" {...props}>
+    <path
+      d="M12 2C7.58172 2 4 5.60491 4 10.0518C4 13.935 7.5832 18.0399 10.3807 21.2449L10.4173 21.2867C11.2474 22.2378 12.7526 22.2378 13.5827 21.2867L13.6192 21.2449C16.4168 18.04 20 13.935 20 10.0518C20 5.60491 16.4183 2 12 2Z"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+)
